@@ -21,7 +21,8 @@
     "sassprefixer:sass": "node-sass --output-style expanded --source-map true -o css scss",
     "sassprefixer:autoprefixer": "autoprefixer-cli css/style.css",
     "watch:browsersync": "browser-sync start --server --files 'css/*.css' '*.html'",
-    "start": "webpack"
+    "start": "webpack-dev-server --hot --env  development",
+    "build": "webpack --env production"
   },
   "keywords": [],
   "author": "",
