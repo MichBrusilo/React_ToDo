@@ -1,0 +1,9 @@
+.TodoTitle > h2 {
+	color: red;
+	text-align: center;
+}
+
+.TodoTitle > p {
+	color: black;
+ 	text-align: center;
+}
