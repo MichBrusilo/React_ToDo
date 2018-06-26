@@ -1,12 +1,14 @@
 const path = require('path');
 
 //webpack.config.js
-module.exports = {
-    entry: './src/index.js',
+module.exports = (env) => {
+    return {
+        mode: env || 'production',
+        entry: './src/app.js',
     output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'app.bundle.js'
-    },
+            path: path.resolve(__dirname, 'build'),
+            filename: 'app.' + environment + '.bundle.js'
+        },
     module: {
         rules: [
             {
@@ -27,5 +29,7 @@ module.exports = {
     }
         ]
     }
-
+    optimization: {
+        minimize: false
+    }
 };
