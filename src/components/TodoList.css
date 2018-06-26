@@ -1,0 +1,9 @@
+.TodoList > h2 {
+	color: blue;
+	text-align: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
