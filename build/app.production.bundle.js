@@ -104,7 +104,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"._746Le9XnRlHRT9rCtI51J > h2 {\\r\\n\\tcolor: blue;\\r\\n\\ttext-align: center;\\r\\n}\\r\\n\\r\\nli {\\r\\n    display: flex;\\r\\n    align-items: center;\\r\\n}\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"TodoList\": \"_746Le9XnRlHRT9rCtI51J\"\n};\n\n//# sourceURL=webpack:///./src/components/TodoList.css?./node_modules/css-loader??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"._746Le9XnRlHRT9rCtI51J > h2 {\\r\\n\\tcolor: blue;\\r\\n\\ttext-align: center;\\r\\n}\\r\\n\\r\\nli {\\r\\n    display: flex;\\r\\n    align-items: center;\\r\\n}\\r\\n\\r\\nbutton {\\r\\n    width: 30px;\\r\\n    height: 20px;\\r\\n    background-color: blue;\\r\\n    color: green;\\r\\n    border: 1px solid red;\\r\\n}\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"TodoList\": \"_746Le9XnRlHRT9rCtI51J\"\n};\n\n//# sourceURL=webpack:///./src/components/TodoList.css?./node_modules/css-loader??ref--5-1");
 
 /***/ }),
 

@@ -1,0 +1,8 @@
+.todoForm input {
+    margin-left:  10px;
+}
+
+.todoForm input[type=submit] {
+    background-color: yellow;
+    color: white;
+}
